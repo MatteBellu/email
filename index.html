@@ -13,6 +13,13 @@
 			<div class="right">
 				<h2>Contact Us</h2>
 				<form action="https://formsubmit.co/747c16c57f7a800ca218edf9316919ac" method="POST">
+					<!---honeypot-->
+					<input type="text" name="_honey" style="display: none;">
+
+					<!---disable captcha-->
+					<input type="hidden" name="captcha" value="false">
+
+
 					<input type="text" class="field" placeholder="Your Name" name="name">
 					<input type="text" class="field" placeholder="Your Email" name="email">
 					<input type="text" class="field" placeholder="Phone" name="phone">
